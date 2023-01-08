@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "803333276564",
+    "project_id": "mapstracking-13463",
+    "storage_bucket": "mapstracking-13463.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803333276564:android:c34bf5e66347ea3ed04581",
+        "android_client_info": {
+          "package_name": "io.flutterflow.mapstracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803333276564-2n6nfe8k5of7e73r5e3q31385cnsbdu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.flutterflow.mapstracking",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "803333276564-c72ofc10a0r3b77og009ei30c77valt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaZZ7G-zcm3Rx2-DomnrkPwvq_VamTTGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803333276564-c72ofc10a0r3b77og009ei30c77valt7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "803333276564-r9r1otb7adq5kko6j70c0ku4952961cu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.flutterflow.ridedriver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803333276564:android:01c921a469e0f377d04581",
+        "android_client_info": {
+          "package_name": "io.flutterflow.ridedriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803333276564-c8dbs2r8h4qu4oi0u3h83d0970vt6m0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.flutterflow.ridedriver",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "803333276564-c72ofc10a0r3b77og009ei30c77valt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaZZ7G-zcm3Rx2-DomnrkPwvq_VamTTGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803333276564-c72ofc10a0r3b77og009ei30c77valt7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "803333276564-r9r1otb7adq5kko6j70c0ku4952961cu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.flutterflow.ridedriver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
