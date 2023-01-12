@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>803333276564-r9r1otb7adq5kko6j70c0ku4952961cu.apps.googleusercontent.com</string>
+	<string>300543936591-p9ct4uc4ui3hu6k7ipn0c49kdibmrt00.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.803333276564-r9r1otb7adq5kko6j70c0ku4952961cu</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>803333276564-2n6nfe8k5of7e73r5e3q31385cnsbdu3.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.300543936591-p9ct4uc4ui3hu6k7ipn0c49kdibmrt00</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA-Oy9IMyXBA3gXli3VIFsxvQU8VsteLMs</string>
+	<string>AIzaSyBXIvpj9n4ZyxKkoFntre7-ej8M2TWqKPQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>803333276564</string>
+	<string>300543936591</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>io.flutterflow.ridedriver</string>
 	<key>PROJECT_ID</key>
-	<string>mapstracking-13463</string>
+	<string>bright-gearbox-269314</string>
 	<key>STORAGE_BUCKET</key>
-	<string>mapstracking-13463.appspot.com</string>
+	<string>bright-gearbox-269314.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:803333276564:ios:caceabb830a9b918d04581</string>
+	<string>1:300543936591:ios:e7e797512950902171423a</string>
 </dict>
 </plist>
