@@ -1,9 +1,14 @@
 version: 2.1
 
 jobs:
-  job_name:
+  testjon:
     machine: true
     resource_class: prabhjotbrar/sample
     steps:
       - run: uname -a
       - run: echo "Hello, Arm!"
+
+workflows:
+  build_and_test:
+    jobs:
+      - testjon
