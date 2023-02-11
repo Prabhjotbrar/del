@@ -5,3 +5,9 @@ jobs:
     steps:
       - run: uname -a
       - run: echo "Hello, Arm!"
+  job_name2:
+    machine: true
+    resource_class: prabhjotbrar/t3
+    steps:
+      - run: uname -a
+      - run: echo "Hello, Arm!"
