@@ -1,13 +1,46 @@
 jobs:
-  job_name:
+  b1:
     machine: true
     resource_class: prabhjotbrar/sample
     steps:
       - run: uname -a
       - run: echo "Hello, Arm!"
-  job_name2:
+  b2:
     machine: true
     resource_class: prabhjotbrar/t3
     steps:
       - run: uname -a
       - run: echo "Hello, Arm!"
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - b1
+      - b2 
+      
+  
+#  jobs:
+#   build:
+#     docker:
+#       - image: cimg/<language>:<version TAG>
+#         auth:
+#           username: mydockerhub-user
+#           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+#     steps:
+#       - checkout
+#       - run: <command>
+#   test:
+#     docker:
+#       - image: cimg/<language>:<version TAG>
+#         auth:
+#           username: mydockerhub-user
+#           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+#     steps:
+#       - checkout
+#       - run: <command>
+# workflows:
+#   version: 2
+#   build_and_test:
+#     jobs:
+#       - build
+#       - test
