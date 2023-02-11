@@ -7,8 +7,15 @@ jobs:
     steps:
       - run: uname -a
       - run: echo "Hello, Arm!"
-
+  testfon:
+    machine: true
+    resource_class: prabhjotbrar/t3
+    steps:
+      - run: uname -a
+      - run: echo "Hello, Arm!"
+      - run: docker
 workflows:
   build_and_test:
     jobs:
       - testjon
+      - testfon
